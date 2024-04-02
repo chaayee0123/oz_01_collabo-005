@@ -1,0 +1,61 @@
+.join {
+  width: 70%;
+  margin: 0 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffdf8;
+}
+.joinForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.inputDiv {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  font-weight: 700;
+}
+.joinDiv {
+  width: 40%;
+  margin: 15px;
+  text-align: left;
+  padding: 2px;
+}
+
+.joinInput {
+  margin-top: 13.5px;
+  min-width: 0;
+  width: 60%;
+  height: 30px;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  font-size: inherit;
+  border: 1px solid;
+}
+.joinBtnBox {
+  margin-top: 40px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 60%;
+}
+.joinBtn {
+  width: 70%;
+  height: 55%;
+  margin-left: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+  background-color: #b22222;
+  color: white;
+}
+.joinInput::placeholder {
+  font-size: 0.8rem;
+}
